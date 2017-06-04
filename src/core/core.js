@@ -32,6 +32,11 @@ module.exports = function() {
 			// Element defaults defined in element extensions
 			elements: {},
 
+			// Layout options such as padding
+			layout: {
+				padding: 0
+			},
+
 			// Legend callback string
 			legendCallback: function(chart) {
 				var text = [];
